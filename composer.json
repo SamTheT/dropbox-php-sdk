@@ -9,10 +9,6 @@
             "email": "kunalvarma05@gmail.com"
         }
     ],
-    "require": {
-        "guzzlehttp/guzzle": "~6.0",
-        "tightenco/collect": "^5.2"
-    },
     "autoload": {
         "psr-4": {
             "Kunnu\\Dropbox\\": "src/Dropbox"
@@ -20,5 +16,9 @@
     },
     "require-dev": {
         "phpunit/phpunit": "^6.0"
+    },
+    "require": {
+        "tightenco/collect": "^8.19",
+        "guzzlehttp/guzzle": "^7.2"
     }
 }
